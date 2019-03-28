@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwifterSwiftTKS'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A set of SwifterSwift extensions used in TKS projects.'
 
 # This description is used to generate tags and improve search results.

@@ -11,14 +11,14 @@
 		1387090A033D9D69F9EFAE302223E406 /* Pods-SwifterSwiftTKS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E137D3B4D0E56758E9857F461BB92EB1 /* Pods-SwifterSwiftTKS_Example-dummy.m */; };
 		1E2094D1B993615271850561FE92288C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		2F8D274946EFE6F8BC9A03D45D28261E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		39B730CBD2661E3842EF3DD2E7B812E9 /* SwifterSwiftTKS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB655EBCEB4C1213AF7F172CE460D396 /* SwifterSwiftTKS-dummy.m */; };
-		524F258C5B2B831B0CDD9CC6F7A8A8C1 /* SwifterSwiftTKS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E70800994260C1BD09CABE2570496AD /* SwifterSwiftTKS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56BE3E9C224CD200001AB253 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE3E98224CD1FF001AB253 /* UIImageExtensions.swift */; };
-		56BE3E9D224CD200001AB253 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE3E99224CD1FF001AB253 /* UITextFieldExtensions.swift */; };
-		56BE3E9E224CD200001AB253 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE3E9A224CD1FF001AB253 /* UIViewExtensions.swift */; };
-		56BE3E9F224CD200001AB253 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BE3E9B224CD200001AB253 /* SwifterSwift.swift */; };
+		3D11E23291C66EE789DFCDB0AA965E52 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BADB5A97487EAF6058B174EDA74E1F /* UIImageExtensions.swift */; };
+		524F258C5B2B831B0CDD9CC6F7A8A8C1 /* SwifterSwiftTKS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBF3034CCCF680A34DE043C3BA2034D /* SwifterSwiftTKS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5CC87D83FAE430195CFC4926F7B088 /* SwifterSwiftTKS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76AAAAD56854FB3BD7789F3A2AC590 /* SwifterSwiftTKS-dummy.m */; };
 		8D482EC16535CD55D6BFA016CAFC63E4 /* Pods-SwifterSwiftTKS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A262B898570D0FE461FDB8BFA4D7CE /* Pods-SwifterSwiftTKS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A196C35AE2ED1431309D4BEC0C57A927 /* Pods-SwifterSwiftTKS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11665AEAE282501976583187B6F3CEA5 /* Pods-SwifterSwiftTKS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A772F05F1E3B80D10F9CD6AB4B6E59CE /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C70D8F4885564B3E5748395BC2CA6 /* UITextFieldExtensions.swift */; };
+		A7A365492B71B87AF69D98E25E77433F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC719B606571007D171B33859E20AB /* UIViewExtensions.swift */; };
+		B40CA4EA4490BE6152C117418ACE54F5 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A59E661DFB88BA8D1BCF6585F79D73 /* SwifterSwift.swift */; };
 		E6921842F9F26BE0BDB0B4FA2E6D72C4 /* Pods-SwifterSwiftTKS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29369980F2584E937C61AEC1153A3EA0 /* Pods-SwifterSwiftTKS_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -41,40 +41,40 @@
 
 /* Begin PBXFileReference section */
 		02C508AED1DB5FEED1A99D83DFDB2CD3 /* Pods-SwifterSwiftTKS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwifterSwiftTKS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		03F629238FBDBAE10190228BE7151CCB /* SwifterSwiftTKS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwifterSwiftTKS-Info.plist"; sourceTree = "<group>"; };
 		11665AEAE282501976583187B6F3CEA5 /* Pods-SwifterSwiftTKS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwifterSwiftTKS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1E70800994260C1BD09CABE2570496AD /* SwifterSwiftTKS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwiftTKS-umbrella.h"; sourceTree = "<group>"; };
-		234A520300E1E929637EAAEECC8B070C /* SwifterSwiftTKS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwifterSwiftTKS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2248C7854D002BFDEC16D5B6B4A0C403 /* SwifterSwiftTKS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwiftTKS-prefix.pch"; sourceTree = "<group>"; };
 		29369980F2584E937C61AEC1153A3EA0 /* Pods-SwifterSwiftTKS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwifterSwiftTKS_Tests-dummy.m"; sourceTree = "<group>"; };
-		2DA7E868F8B83CD8BED9F09E84C1F169 /* SwifterSwiftTKS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwifterSwiftTKS.xcconfig; sourceTree = "<group>"; };
 		3857AF9F0071E89222A35FA341C20853 /* Pods-SwifterSwiftTKS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwifterSwiftTKS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B4F2B715A94D710A1A9FE18DE6A0036 /* Pods-SwifterSwiftTKS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwifterSwiftTKS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FC4BB54B7BD3826C1DDF5B3338BEEDC /* Pods-SwifterSwiftTKS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwifterSwiftTKS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		46D1DAE162838CFA619796B9F0B4B4CE /* Pods-SwifterSwiftTKS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwifterSwiftTKS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E1915F365495A4FC4A3C967876C02F6 /* Pods-SwifterSwiftTKS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwifterSwiftTKS_Tests.modulemap"; sourceTree = "<group>"; };
-		4F93C98C9373870EB5AC217A367EC4CD /* SwifterSwiftTKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifterSwiftTKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F93C98C9373870EB5AC217A367EC4CD /* SwifterSwiftTKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwifterSwiftTKS.framework; path = SwifterSwiftTKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52410AD959347F378E3AEC1BDB6410C6 /* Pods-SwifterSwiftTKS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwifterSwiftTKS_Example.modulemap"; sourceTree = "<group>"; };
-		56BE3E98224CD1FF001AB253 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
-		56BE3E99224CD1FF001AB253 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
-		56BE3E9A224CD1FF001AB253 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		56BE3E9B224CD200001AB253 /* SwifterSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSwift.swift; sourceTree = "<group>"; };
-		59B8EFD856349F07E8561589D198368A /* SwifterSwiftTKS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwiftTKS-prefix.pch"; sourceTree = "<group>"; };
-		5A344973FF2772C937C69EEF76AD3746 /* SwifterSwiftTKS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwifterSwiftTKS.modulemap; sourceTree = "<group>"; };
+		557CB56C1193E0CE36B00FB730D0001C /* SwifterSwiftTKS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwifterSwiftTKS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56A59E661DFB88BA8D1BCF6585F79D73 /* SwifterSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSwift.swift; path = SwifterSwiftTKS/Classes/SwifterSwift.swift; sourceTree = "<group>"; };
 		62B7ABCEF21FC181DB2764E83D8AAE7B /* Pods-SwifterSwiftTKS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwifterSwiftTKS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		63DC0EDD76288819B387826126B0A5CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		721F428ED047F294DB51288FADD6927A /* Pods-SwifterSwiftTKS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwifterSwiftTKS_Example-Info.plist"; sourceTree = "<group>"; };
-		7FA6AB60959D68AFC9C6B0ADA1C1CA07 /* Pods_SwifterSwiftTKS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifterSwiftTKS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733D68FDF5E51CB3DF260CB893918433 /* SwifterSwiftTKS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwifterSwiftTKS.modulemap; sourceTree = "<group>"; };
+		7FA6AB60959D68AFC9C6B0ADA1C1CA07 /* Pods_SwifterSwiftTKS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwifterSwiftTKS_Tests.framework; path = "Pods-SwifterSwiftTKS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E918D354B12206593E3319A6EDE3055 /* Pods-SwifterSwiftTKS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwifterSwiftTKS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		965B14578B3C9553437BECEAD37F2EBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A22E0E2D3D260219B625686AD29B3DA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C76AAAAD56854FB3BD7789F3A2AC590 /* SwifterSwiftTKS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwifterSwiftTKS-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC2428E90814CBC566F65C691282940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A69769B407106520B6964509E7352DBD /* Pods-SwifterSwiftTKS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwifterSwiftTKS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFAC719B606571007D171B33859E20AB /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = SwifterSwiftTKS/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
 		C12BC044EA0610E656F3896108C3B393 /* Pods-SwifterSwiftTKS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwifterSwiftTKS_Tests-Info.plist"; sourceTree = "<group>"; };
 		C6A262B898570D0FE461FDB8BFA4D7CE /* Pods-SwifterSwiftTKS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwifterSwiftTKS_Example-umbrella.h"; sourceTree = "<group>"; };
-		C9AF766B51A04FE3B7C19E49AAB98C72 /* SwifterSwiftTKS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwifterSwiftTKS-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D08E19358D3150E03693FBE31C410E33 /* Pods_SwifterSwiftTKS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifterSwiftTKS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08E19358D3150E03693FBE31C410E33 /* Pods_SwifterSwiftTKS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwifterSwiftTKS_Example.framework; path = "Pods-SwifterSwiftTKS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15C70D8F4885564B3E5748395BC2CA6 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldExtensions.swift; path = SwifterSwiftTKS/Classes/UITextFieldExtensions.swift; sourceTree = "<group>"; };
 		D558DEC840AF1FDE5C76B6B4901F8008 /* Pods-SwifterSwiftTKS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwifterSwiftTKS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB655EBCEB4C1213AF7F172CE460D396 /* SwifterSwiftTKS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwifterSwiftTKS-dummy.m"; sourceTree = "<group>"; };
+		DB5937B5D9EE409C04BD7AF2BD08992E /* SwifterSwiftTKS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwifterSwiftTKS.xcconfig; sourceTree = "<group>"; };
+		DCBF3034CCCF680A34DE043C3BA2034D /* SwifterSwiftTKS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwiftTKS-umbrella.h"; sourceTree = "<group>"; };
 		E137D3B4D0E56758E9857F461BB92EB1 /* Pods-SwifterSwiftTKS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwifterSwiftTKS_Example-dummy.m"; sourceTree = "<group>"; };
+		F8BADB5A97487EAF6058B174EDA74E1F /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = SwifterSwiftTKS/Classes/UIImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,42 +114,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		42E964BE401132CBADFB05146F233C73 /* SwifterSwiftTKS */ = {
+		3D73A992B6AC19CF1A381B17FAABF88A /* SwifterSwiftTKS */ = {
 			isa = PBXGroup;
 			children = (
-				56BE3E9B224CD200001AB253 /* SwifterSwift.swift */,
-				56BE3E98224CD1FF001AB253 /* UIImageExtensions.swift */,
-				56BE3E99224CD1FF001AB253 /* UITextFieldExtensions.swift */,
-				56BE3E9A224CD1FF001AB253 /* UIViewExtensions.swift */,
-				505929EA4ADC1E703F2363C2E1A48267 /* Pod */,
-				4E5F642634398FADC269D2D89F75EF3C /* Support Files */,
+				56A59E661DFB88BA8D1BCF6585F79D73 /* SwifterSwift.swift */,
+				F8BADB5A97487EAF6058B174EDA74E1F /* UIImageExtensions.swift */,
+				D15C70D8F4885564B3E5748395BC2CA6 /* UITextFieldExtensions.swift */,
+				AFAC719B606571007D171B33859E20AB /* UIViewExtensions.swift */,
+				EE2934FF0E1563BE0AA6B1963D3F62FF /* Pod */,
+				739CD8C589AB52AAD1E996460FC27BCB /* Support Files */,
 			);
 			name = SwifterSwiftTKS;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4E5F642634398FADC269D2D89F75EF3C /* Support Files */ = {
+		739CD8C589AB52AAD1E996460FC27BCB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A344973FF2772C937C69EEF76AD3746 /* SwifterSwiftTKS.modulemap */,
-				2DA7E868F8B83CD8BED9F09E84C1F169 /* SwifterSwiftTKS.xcconfig */,
-				DB655EBCEB4C1213AF7F172CE460D396 /* SwifterSwiftTKS-dummy.m */,
-				C9AF766B51A04FE3B7C19E49AAB98C72 /* SwifterSwiftTKS-Info.plist */,
-				59B8EFD856349F07E8561589D198368A /* SwifterSwiftTKS-prefix.pch */,
-				1E70800994260C1BD09CABE2570496AD /* SwifterSwiftTKS-umbrella.h */,
+				733D68FDF5E51CB3DF260CB893918433 /* SwifterSwiftTKS.modulemap */,
+				DB5937B5D9EE409C04BD7AF2BD08992E /* SwifterSwiftTKS.xcconfig */,
+				9C76AAAAD56854FB3BD7789F3A2AC590 /* SwifterSwiftTKS-dummy.m */,
+				03F629238FBDBAE10190228BE7151CCB /* SwifterSwiftTKS-Info.plist */,
+				2248C7854D002BFDEC16D5B6B4A0C403 /* SwifterSwiftTKS-prefix.pch */,
+				DCBF3034CCCF680A34DE043C3BA2034D /* SwifterSwiftTKS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwifterSwiftTKS";
-			sourceTree = "<group>";
-		};
-		505929EA4ADC1E703F2363C2E1A48267 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				965B14578B3C9553437BECEAD37F2EBA /* LICENSE */,
-				A22E0E2D3D260219B625686AD29B3DA0 /* README.md */,
-				234A520300E1E929637EAAEECC8B070C /* SwifterSwiftTKS.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		75848F085E65F5CD2DEF488CF82B392A /* Pods-SwifterSwiftTKS_Tests */ = {
@@ -178,6 +168,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9A29DEE305C7455D766DE16C2D4C6237 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D73A992B6AC19CF1A381B17FAABF88A /* SwifterSwiftTKS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		9A8C47AD5953677F492972B9699FD045 /* Pods-SwifterSwiftTKS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,19 +201,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B212020738F1051F43213D15395ADBC2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				42E964BE401132CBADFB05146F233C73 /* SwifterSwiftTKS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B212020738F1051F43213D15395ADBC2 /* Development Pods */,
+				9A29DEE305C7455D766DE16C2D4C6237 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				75CA85E2B3140C6E4DB2F6B46C5E233D /* Products */,
 				2B5DD21B13798F24AB69703E00EB6A7F /* Targets Support Files */,
@@ -228,6 +218,16 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2934FF0E1563BE0AA6B1963D3F62FF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2428E90814CBC566F65C691282940 /* LICENSE */,
+				63DC0EDD76288819B387826126B0A5CC /* README.md */,
+				557CB56C1193E0CE36B00FB730D0001C /* SwifterSwiftTKS.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +265,7 @@
 			buildConfigurationList = 8AC3FA8F11F127450CB28D1AF7486CAE /* Build configuration list for PBXNativeTarget "SwifterSwiftTKS" */;
 			buildPhases = (
 				1F8D871363AD9DB312701C188CF3C3B0 /* Headers */,
-				393C09DF4D434797BD6F79133D509905 /* Sources */,
+				A725B7383ED512C27474A48C3A600E08 /* Sources */,
 				4FCB2CF3059F784421E01E961D593D09 /* Frameworks */,
 				EF4551479BF3BBD59AAEE90D60B0FD0F /* Resources */,
 			);
@@ -323,20 +323,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					0694ACA3D928381623C2CAA2D8E3A2FD = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 75CA85E2B3140C6E4DB2F6B46C5E233D /* Products */;
@@ -375,18 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		393C09DF4D434797BD6F79133D509905 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56BE3E9D224CD200001AB253 /* UITextFieldExtensions.swift in Sources */,
-				56BE3E9F224CD200001AB253 /* SwifterSwift.swift in Sources */,
-				39B730CBD2661E3842EF3DD2E7B812E9 /* SwifterSwiftTKS-dummy.m in Sources */,
-				56BE3E9E224CD200001AB253 /* UIViewExtensions.swift in Sources */,
-				56BE3E9C224CD200001AB253 /* UIImageExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C0092E80DE827788073717426B1CF65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,6 +382,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1387090A033D9D69F9EFAE302223E406 /* Pods-SwifterSwiftTKS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A725B7383ED512C27474A48C3A600E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40CA4EA4490BE6152C117418ACE54F5 /* SwifterSwift.swift in Sources */,
+				5B5CC87D83FAE430195CFC4926F7B088 /* SwifterSwiftTKS-dummy.m in Sources */,
+				3D11E23291C66EE789DFCDB0AA965E52 /* UIImageExtensions.swift in Sources */,
+				A772F05F1E3B80D10F9CD6AB4B6E59CE /* UITextFieldExtensions.swift in Sources */,
+				A7A365492B71B87AF69D98E25E77433F /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +415,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C6E4E1D64DFF0C27F457F7FAF2AFD68 /* Release */ = {
+		13731F949FE96A2EA4D3D3D42D1D62EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA7E868F8B83CD8BED9F09E84C1F169 /* SwifterSwiftTKS.xcconfig */;
+			baseConfigurationReference = DB5937B5D9EE409C04BD7AF2BD08992E /* SwifterSwiftTKS.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -438,7 +432,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS.modulemap";
+				PRODUCT_MODULE_NAME = SwifterSwiftTKS;
+				PRODUCT_NAME = SwifterSwiftTKS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F98B28C8CEBD9B846332F0DB6848FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5937B5D9EE409C04BD7AF2BD08992E /* SwifterSwiftTKS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS.modulemap";
 				PRODUCT_MODULE_NAME = SwifterSwiftTKS;
@@ -521,39 +547,6 @@
 			};
 			name = Release;
 		};
-		8810C6642D71D881322E411DD85D0C79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA7E868F8B83CD8BED9F09E84C1F169 /* SwifterSwiftTKS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwifterSwiftTKS/SwifterSwiftTKS.modulemap";
-				PRODUCT_MODULE_NAME = SwifterSwiftTKS;
-				PRODUCT_NAME = SwifterSwiftTKS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -605,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -613,7 +606,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -733,13 +726,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -768,8 +762,8 @@
 		8AC3FA8F11F127450CB28D1AF7486CAE /* Build configuration list for PBXNativeTarget "SwifterSwiftTKS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8810C6642D71D881322E411DD85D0C79 /* Debug */,
-				1C6E4E1D64DFF0C27F457F7FAF2AFD68 /* Release */,
+				13731F949FE96A2EA4D3D3D42D1D62EA /* Debug */,
+				2F98B28C8CEBD9B846332F0DB6848FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
