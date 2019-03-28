@@ -1,0 +1,16 @@
+PODS:
+  - SwifterSwiftTKS (0.1.0)
+
+DEPENDENCIES:
+  - SwifterSwiftTKS (from `../`)
+
+EXTERNAL SOURCES:
+  SwifterSwiftTKS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwifterSwiftTKS: e80a908f13b911f9fdf973a54730e734dd544081
+
+PODFILE CHECKSUM: 6677557dd4ae8fc79920fb4af6b70b52c2d352aa
+
+COCOAPODS: 1.6.1

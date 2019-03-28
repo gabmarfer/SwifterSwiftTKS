@@ -1,0 +1,6 @@
+framework module SwifterSwiftTKS {
+  umbrella header "SwifterSwiftTKS-umbrella.h"
+
+  export *
+  module * { export * }
+}
