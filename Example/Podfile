@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwifterSwiftTKS_Example' do
+  pod 'SwifterSwiftTKS', :path => '../'
+
+  target 'SwifterSwiftTKS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
