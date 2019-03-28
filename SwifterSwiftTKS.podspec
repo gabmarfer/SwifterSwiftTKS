@@ -29,7 +29,7 @@ A set of SwifterSwift extensions used in TKS projects. Extensions are customized
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.3'
-
+  s.swift_version = '5.0'
   s.source_files = 'SwifterSwiftTKS/Classes/**/*'
   
   # s.resource_bundles = {
