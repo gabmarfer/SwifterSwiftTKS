@@ -157,6 +157,85 @@ public extension UITextField {
         leftViewMode = .always
     }
     
+    /// SwifterSwift: Add an image to the left of a UITextField
+    ///
+    /// - Parameters:
+    ///   - image: image to add
+    ///   - spacing: amount of padding between the image and the start of the text input. By default, 20.0
+    ///   - contentMode: content mode of the image. By default, scaleAspectFit
+    func setLeftViewImage(_ image: UIImage,
+                          spacing: CGFloat = 20.0,
+                          contentMode: UIView.ContentMode = .scaleAspectFit) {
+        let imageView = UIImageView(image: image)
+        imageView.contentMode = .scaleAspectFit
+        setView(imageView, edge: .left, spacing: spacing)
+    }
+    
+    /// SwifterSwift: Add an image to the right of a UITextField
+    ///
+    /// - Parameters:
+    ///   - image: image to add
+    ///   - spacing: amount of padding between the image and the end of the text input. By default, 20.0
+    ///   - contentMode: content mode of the image. By default, scaleAspectFit
+    func setRightViewImage(_ image: UIImage,
+                           spacing: CGFloat = 20.0,
+                           contentMode: UIView.ContentMode = .scaleAspectFit) {
+        let imageView = UIImageView(image: image)
+        imageView.contentMode = .scaleAspectFit
+        setView(imageView, edge: .right, spacing: spacing)
+    }
+    
+    /// SwifterSwift: Add a button to the left of a UITextField
+    ///
+    /// - Parameters:
+    ///   - button: button to add
+    ///   - spacing: amount of padding between the button and the start of the text input. By default, 20.0
+    ///   - contentMode: content mode of the button image. By default, scaleAspectFit
+    func setLeftViewButton(_ button: UIButton,
+                          spacing: CGFloat = 20.0,
+                          contentMode: UIView.ContentMode = .scaleAspectFit) {
+        button.imageView?.contentMode = contentMode
+        setView(button, edge: .left, spacing: spacing)
+    }
+    
+    /// SwifterSwift: Add a button to the right of a UITextField
+    ///
+    /// - Parameters:
+    ///   - button: button to add
+    ///   - spacing: amount of padding between the button and the end of the text input. By default, 20.0
+    ///   - contentMode: content mode of the button image. By default, scaleAspectFit
+    func setRightViewButton(_ button: UIButton,
+                           spacing: CGFloat = 20.0,
+                           contentMode: UIView.ContentMode = .scaleAspectFit) {
+        button.imageView?.contentMode = contentMode
+        setView(button, edge: .right, spacing: spacing)
+    }
+    
+    /// Add a view to the left or right side of a UITextField
+    ///
+    /// - Parameters:
+    ///   - view: view to add
+    ///   - edge: left or right
+    ///   - spacing: amount of padding between the view and the start or the end of the text input. By default, 20.0
+    func setView(_ view: UIView, edge: UIRectEdge, spacing: CGFloat = 20.0) {
+        guard edge == .left || edge == .right else {
+            return
+        }
+        
+        let containerView = UIView(frame: CGRect(x: 0, y: 0, width: bounds.height + spacing, height: bounds.height))
+        containerView.backgroundColor = .clear
+        containerView.addSubview(view)
+        view.frame = CGRect(x: edge == .left ? 0 : spacing, y: 0, width: containerView.height, height: containerView.height)
+        
+        if edge == .left {
+            leftView = containerView
+            leftViewMode = .always
+        } else {
+            rightView = containerView
+            rightViewMode = .always
+        }
+    }
+    
 }
 
 #endif
