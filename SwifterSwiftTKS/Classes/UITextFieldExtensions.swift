@@ -93,11 +93,11 @@ public extension UITextField {
     /// SwifterSwift: Left view tint color.
     @IBInspectable  var leftViewTintColor: UIColor? {
         get {
-            guard let iconView = leftView as? UIImageView else { return nil }
+            guard let iconView = leftImageView else { return nil }
             return iconView.tintColor
         }
         set {
-            guard let iconView = leftView as? UIImageView else { return }
+            guard let iconView = leftImageView else { return }
             iconView.image = iconView.image?.withRenderingMode(.alwaysTemplate)
             iconView.tintColor = newValue
         }
@@ -106,13 +106,29 @@ public extension UITextField {
     /// SwifterSwift: Right view tint color.
     @IBInspectable  var rightViewTintColor: UIColor? {
         get {
-            guard let iconView = rightView as? UIImageView else { return nil }
+            guard let iconView = rightImageView else { return nil }
             return iconView.tintColor
         }
         set {
-            guard let iconView = rightView as? UIImageView else { return }
+            guard let iconView = rightImageView else { return }
             iconView.image = iconView.image?.withRenderingMode(.alwaysTemplate)
             iconView.tintColor = newValue
+        }
+    }
+    
+    private var leftImageView: UIImageView? {
+        if leftView is UIImageView {
+            return leftView as? UIImageView
+        } else {
+            return leftView?.subviews.first(where: { $0 is UIImageView }) as? UIImageView
+        }
+    }
+    
+    private var rightImageView: UIImageView? {
+        if rightView is UIImageView {
+            return rightView as? UIImageView
+        } else {
+            return rightView?.subviews.first(where: { $0 is UIImageView }) as? UIImageView
         }
     }
     
