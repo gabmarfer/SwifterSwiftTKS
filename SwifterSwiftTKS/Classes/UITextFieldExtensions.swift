@@ -179,10 +179,15 @@ public extension UITextField {
     ///   - image: image to add
     ///   - spacing: amount of padding between the image and the start of the text input. By default, 20.0
     ///   - contentMode: content mode of the image. By default, scaleAspectFit
+    ///   - tintColor: the tint color for the imageView
     func setLeftViewImage(_ image: UIImage,
                           spacing: CGFloat = 20.0,
-                          contentMode: UIView.ContentMode = .scaleAspectFit) {
+                          contentMode: UIView.ContentMode = .scaleAspectFit,
+                          tintColor: UIColor? = nil) {
         let imageView = UIImageView(image: image)
+        if let tintColor = tintColor {
+            imageView.tintColor = tintColor
+        }
         imageView.contentMode = .scaleAspectFit
         setView(imageView, edge: .left, spacing: spacing)
     }
@@ -193,10 +198,15 @@ public extension UITextField {
     ///   - image: image to add
     ///   - spacing: amount of padding between the image and the end of the text input. By default, 20.0
     ///   - contentMode: content mode of the image. By default, scaleAspectFit
+    ///   - tintColor: the tint color for the imageView
     func setRightViewImage(_ image: UIImage,
                            spacing: CGFloat = 20.0,
-                           contentMode: UIView.ContentMode = .scaleAspectFit) {
+                           contentMode: UIView.ContentMode = .scaleAspectFit,
+                           tintColor: UIColor? = nil) {
         let imageView = UIImageView(image: image)
+        if let tintColor = tintColor {
+            imageView.tintColor = tintColor
+        }
         imageView.contentMode = .scaleAspectFit
         setView(imageView, edge: .right, spacing: spacing)
     }

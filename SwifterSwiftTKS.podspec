@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwifterSwiftTKS'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A set of SwifterSwift extensions used in TKS projects.'
   s.description      = <<-DESC
 A set of SwifterSwift extensions used in TKS projects. Extensions are customized in order to remove warnings and deprecated methods
